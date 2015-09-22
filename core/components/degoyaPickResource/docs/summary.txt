@@ -1,0 +1,9 @@
+degoyaPickResource based on PickResource by Mike Barton <mike@mjb123.uk>
+
+This custom TV field is an alternative to the resource list field type.
+
+Following installation, simply create a new TV with the input type & output type
+set to pickresource. Define any required input options / filters and then use in any
+resource template or part of a MIGX TV.
+
+For extra documentation view the readme.txt

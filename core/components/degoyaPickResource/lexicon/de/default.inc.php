@@ -1,0 +1,21 @@
+<?php
+$_lang['degoyaPickResource.title'] = 'degoyaPickResource';
+$_lang['degoyaPickResource.parentsTitle'] = 'Wurzel';
+$_lang['degoyaPickResource.parentsHelp'] = 'Wurzel-Ressource auswählen';
+$_lang['degoyaPickResource.excludesTitle'] = 'Ausschließen';
+$_lang['degoyaPickResource.excludesHelp'] = 'Liste mit IDs die ausgeschlossen werden sollen.';
+$_lang['degoyaPickResource.expandedTitle'] = 'Aufgeklappt';
+$_lang['degoyaPickResource.expandedHelp'] = 'alle Ordner aufklappen';
+$_lang['degoyaPickResource.templatesTitle'] = 'Templates';
+$_lang['degoyaPickResource.templatesHelp'] = 'Liste mit Template IDs die angezeigt werden sollen.';
+$_lang['degoyaPickResource.rootVisibleTitle'] = 'Wurzel sichtbar';
+$_lang['degoyaPickResource.rootVisibleHelp'] = 'Auswählen ob die Wurzel sichtbar ist';
+$_lang['degoyaPickResource.publishedOnlyTitle'] = 'Nur veröffentlichte';
+$_lang['degoyaPickResource.publishedOnlyHelp'] = 'Zeige nur veröffentlichte Resourcen im Baum';
+$_lang['degoyaPickResource.contextTitle'] = 'Kontext limitieren';
+$_lang['degoyaPickResource.contextHelp'] = 'Auswahl reduzieren auf Kontext der Ressource';
+$_lang['degoyaPickResource.contextParentsTitle'] = 'Kontext Wurzel';
+$_lang['degoyaPickResource.contextParentsHelp'] = 'Wurzel Ressource für jeden Kontext definieren wenn auswahl auf einen Kontext reduziert ist. Format: context1==resourceid1||context2==resourceid2';
+$_lang['degoyaPickResource.btnCaptionDelete'] = 'Auswahl löschen';
+$_lang['degoyaPickResource.btnCaptionChoose'] = 'Ressource wählen';
+$_lang['degoyaPickResource.winTitle'] = 'Ressource auswählen';

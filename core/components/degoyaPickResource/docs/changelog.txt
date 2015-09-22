@@ -1,0 +1,20 @@
+Changelog for degoyaPickResource
+
+degoyaPickResource 1.1.0
+====================================
+
+- added option to limit resources in tree to context
+- added option to select root for each context
+- added option to show only published resources in tree
+- added german lexicon files
+- added lexicon support 
+- added option to exclude resources from list (useful for preview by extras.io to hide hidden containers from tree)
+- added limit Resource list to selected templates
+- added option to expand all folders in tree
+- added option to hide root element from tree
+
+
+degoyaPickResource 1.0.0
+====================================
+
+- Initial release
