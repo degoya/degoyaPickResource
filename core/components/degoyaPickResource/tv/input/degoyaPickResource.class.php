@@ -30,7 +30,7 @@ class DegoyaPickResourceInputRender extends modTemplateVarInputRender {
             }
             $contextParent = string_to_array($contextParents);
             $rootid = $contextParent[$contextkey];
-            $this->modx->log(modX::LOG_LEVEL_ERROR,'rootid '.$rootid);
+            //$this->modx->log(modX::LOG_LEVEL_ERROR,'rootid '.$rootid);
         }
 
         

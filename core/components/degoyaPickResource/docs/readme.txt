@@ -1,7 +1,7 @@
 ----------------------------
 Extra: degoyaPickResource
 ----------------------------
-Version: 1.1.0rc1
+Version: 1.1.1rc2
 Released: 2015-09-22
 Based on: PickResource (http://modx.com/extras/package/pickresource2) by Mike Barton <mike@mjb123.uk> 
 Author: Alexander Herling / DEGOYA medienkommunikation oHG <a.herling@degoya.de>

@@ -1,6 +1,10 @@
 Changelog for degoyaPickResource
 
-degoyaPickResource 1.1.0
+degoyaPickResource 1.1.0rc2
+====================================
+- removed debug message to errorlog
+
+degoyaPickResource 1.1.0rc1
 ====================================
 
 - added option to limit resources in tree to context
