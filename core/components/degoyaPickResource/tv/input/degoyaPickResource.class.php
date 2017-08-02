@@ -19,21 +19,23 @@ class DegoyaPickResourceInputRender extends modTemplateVarInputRender {
         $contextParents = !empty($params['contextParents']) ? $params['contextParents'] : '0';
         if ($context==1) {
             $contextParent = array();
-            function string_to_array($string, $element_delimiter = '||', $value_delimiter = '==') {
-                $results = array();
-                $array = explode($element_delimiter, $string);
-                foreach ($array as $result) {
-                    $element = explode($value_delimiter, $result);
-                    $results[$element[0]] = $element[1];
-                }
-                return $results;
-            }
+			if (!function_exists('string_to_array')) {
+				function string_to_array($string, $element_delimiter = '||', $value_delimiter = '==') {
+					$results = array();
+					$array = explode($element_delimiter, $string);
+					foreach ($array as $result) {
+						$element = explode($value_delimiter, $result);
+						$results[$element[0]] = $element[1];
+					}
+					return $results;
+				}
+			}
             $contextParent = string_to_array($contextParents);
             $rootid = $contextParent[$contextkey];
             //$this->modx->log(modX::LOG_LEVEL_ERROR,'rootid '.$rootid);
         }
 
-        
+
         $roottext = "";
         if ($rootid > 0) {
             // get pagetitle for id
